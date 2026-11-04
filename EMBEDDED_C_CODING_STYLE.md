@@ -639,7 +639,3 @@ Remember that C strings require a terminating null character.
 - Prefer functions with explicit size limits when appropriate.
 - Keep string buffer sizes clear and consistent.
 - Account for the terminating null character when defining buffer capacities.
-
----
-
-**End of document.**
