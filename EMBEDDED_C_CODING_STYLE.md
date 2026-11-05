@@ -3,8 +3,6 @@
 **Version:** 1.0  
 **Language:** C
 
----
-
 ## 1. Purpose and Principles
 
 This document defines a consistent coding style for embedded C projects. It establishes conventions for formatting, naming, source-code organization, and implementation structure.
@@ -535,7 +533,7 @@ Macros do not follow normal language scope and type rules.
 
 ### 10.1 Macro Definitions
 
-Use uppercase `snake_case` for macro names.
+Use `UPPER_SNAKE_CASE` for macro names.
 
 Avoid generic names that may conflict with other identifiers. Prefix project- or module-specific macros when necessary to reduce naming conflicts.
 
